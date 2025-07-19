@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(225, 241, 255);
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* HEADER */
+header .navbar {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 40px;
+  line-height: 1.6;
+}
+header .navbar button {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 30px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+}
+/* MAIN */
+main .hero-title {
+  padding: 20px;
+  background-color: white;
+  margin: 50px 100px;
+}
+main .hero-title h2 {
+  color: blue;
+  padding: 20px 0;
+}
+main .hero-title p {
+  margin-bottom: 30px;
+}
+main .hero-title ul {
+  margin-left: 20px;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+/* SECTION: exploration */
+main .exploration .exploration-title h3 {
+  text-align: center;
+  font-size: 1.4rem;
+}
+main .exploration .exploration-img {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px;
+}
+main .exploration .exploration-img img {
+  width: 350px;
+  height: auto;
+}
+/* Section: TAble */
+main .table{
+    padding: 50px 100px;
+    background-color: rgb(193, 243, 193);
+}
+main .table .title h3{
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+
+}
+main .table .table-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+main .table .table-list .row1 {
+  background-color: rgb(151, 223, 151);
+}
+th,
+td {
+  border: 1px solid #3a3a3a;
+  padding: 10px;
+  text-align: left;
+}
+tr.highlight {
+  background-color: #b37b00;
+}
+/* Section: Contact_US */
+main .contact-us{
+    padding: 50px 100px;
+}
+main .contact-us .title h3{
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+}
+main .contact-us .detail{
+    line-height: 1.8;
+}
+/* Footer */
+footer{
+    background-color: blue;
+    padding: 50px;
+    color: white;
+    text-align: center;
+    line-height: 1.8;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
