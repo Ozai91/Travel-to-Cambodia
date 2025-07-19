@@ -48,7 +48,8 @@ main .exploration .exploration-title h3 {
   font-size: 1.4rem;
 }
 main .exploration .exploration-img {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3,350px);
   justify-content: center;
   gap: 20px;
   padding: 50px;
@@ -108,7 +109,7 @@ a {
 /* Responsive */
 @media (max-width: 575.98px) {
   body {
-    font-size: 12px;
+    font-size: 14px;
   }
   main .hero-title {
     padding: 20px;
@@ -117,7 +118,7 @@ a {
     margin-bottom: 10px;
   }
   main .exploration .exploration-img {
-    display: grid;
+    grid-template-columns: 1fr;
   }
   main .table {
     padding: 20px;
