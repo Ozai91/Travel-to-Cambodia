@@ -9,7 +9,7 @@ body {
 }
 /* HEADER */
 header .navbar {
-  background-color: blue;
+  background-color: blue; 
   color: white;
   text-align: center;
   padding: 40px;
