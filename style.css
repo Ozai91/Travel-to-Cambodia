@@ -58,14 +58,13 @@ main .exploration .exploration-img img {
   height: auto;
 }
 /* Section: TAble */
-main .table{
-    padding: 50px 100px;
-    background-color: rgb(193, 243, 193);
+main .table {
+  padding: 50px 100px;
+  background-color: rgb(193, 243, 193);
 }
-main .table .title h3{
-    font-size: 1.4rem;
-    margin-bottom: 30px;
-
+main .table .title h3 {
+  font-size: 1.4rem;
+  margin-bottom: 30px;
 }
 main .table .table-list table {
   width: 100%;
@@ -84,25 +83,47 @@ tr.highlight {
   background-color: #b37b00;
 }
 /* Section: Contact_US */
-main .contact-us{
-    padding: 50px 100px;
+main .contact-us {
+  padding: 50px 100px;
 }
-main .contact-us .title h3{
-    font-size: 1.4rem;
-    margin-bottom: 30px;
+main .contact-us .title h3 {
+  font-size: 1.4rem;
+  margin-bottom: 30px;
 }
-main .contact-us .detail{
-    line-height: 1.8;
+main .contact-us .detail {
+  line-height: 1.8;
 }
 /* Footer */
-footer{
-    background-color: blue;
-    padding: 50px;
-    color: white;
-    text-align: center;
-    line-height: 1.8;
+footer {
+  background-color: blue;
+  padding: 50px;
+  color: white;
+  text-align: center;
+  line-height: 1.8;
 }
-a{
-    color: white;
-    text-decoration: none;
+a {
+  color: white;
+  text-decoration: none;
+}
+/* Responsive */
+@media (max-width: 575.98px) {
+  body {
+    font-size: 12px;
+  }
+  main .hero-title {
+    padding: 20px;
+    background-color: white;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  main .exploration .exploration-img {
+    display: grid;
+  }
+  main .table {
+    padding: 20px;
+    background-color: rgb(193, 243, 193);
+  }
+  main .contact-us {
+    padding: 20px;
+  }
 }
